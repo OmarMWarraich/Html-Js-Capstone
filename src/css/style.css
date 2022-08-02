@@ -177,17 +177,49 @@
 }
 
 .program-content {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-row-gap: 10px;
     width: 100%;
     margin-top: 24px;
 }
 
 .program-card {
+    margin: 0 24px;
+    width: 87.5%;
+    height: auto;
+    background-color: #000;
+    opacity: 0.7;
     display: grid;
-    grid-template-columns: 50px 50px 150px;
+    grid-template-columns: 80px 80px 167px;
+    align-items: center;
+    justify-content: center;
 }
 
+.program-icon {
+    text-align: center;
+}
 
+.program-icon img {
+    width: 50%;
+    height: 50%;
+}
 
+.program-caption h4 {
+    color: #ec5242;
+    font-size: 4vw;
+    font-style: bold;
+}
 
+.program-description p {
+    color: #fff;
+    font-size: 2.9vw;
+}
+
+.program-button {
+    margin: 24px auto;
+    width: 70%;
+    height: 60px;
+    background-color: #ec5242;
+    border: none;
+}
