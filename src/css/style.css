@@ -13,10 +13,12 @@
     font-family: Lato, sans-serif;
 }
 
-.nav {
+.main {
     display: flex;
     flex-direction: column;
-    height: 70px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/bg1.jpg");
 }
 
 .logo-header {
@@ -97,9 +99,27 @@
 
 .menu {
     display: none;
+    text-align: center;
+    list-style-type: none;
+    
 }
 
+.menu li {
+    margin-top: 1.8px;
+    font-size: 18px;
+}
 
+.menu li a{
+    text-decoration: none;
+    color: #e00000;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    color: #e00000;
+}
 
 
 
