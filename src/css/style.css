@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-image: url("../assets/bg1.jpg");
 }
 
@@ -29,7 +29,7 @@
     width: 100%;
 }
 
-.nav_icon {
+.toggle_icon {
     width: 60px;
     height: 60px;
     position: relative;
@@ -43,9 +43,10 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+    
 }
 
-.nav_icon span {
+.toggle_icon span {
     display: block;
     position: absolute;
     height: 9px;
@@ -64,19 +65,19 @@
     transition: .25s ease-in-out;
 }
 
-.nav_icon span:nth-child(1) {
+.toggle_icon span:nth-child(1) {
     top: 0;
 }
 
-.nav_icon span:nth-child(2) {
+.toggle_icon span:nth-child(2) {
     top: 18px;
 }
 
-.nav_icon span:nth-child(3) {
+.toggle_icon span:nth-child(3) {
     top: 36px;
 }
 
-.nav_icon.open span:nth-child(1) {
+.toggle_icon.open span:nth-child(1) {
     top: 18px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -84,12 +85,12 @@
     transform: rotate(135deg);
 }
 
-.nav_icon.open span:nth-child(2) {
+.toggle_icon.open span:nth-child(2) {
     opacity: 0;
     left: -6px;
 }
 
-.nav_icon.open span:nth-child(3) {
+.toggle_icon.open span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
@@ -106,7 +107,7 @@
 
 .menu li {
     margin-top: 1.8px;
-    font-size: 18px;
+    font-size: 4.5vw;
 }
 
 .menu li a{
@@ -118,9 +119,74 @@
     display: flex;
     flex-direction: column;
     margin-left: 24px;
-    color: #e00000;
 }
 
+.main-content-title h1{
+    color: #ec5242;
+    font-style: normal;
+    font-size: 5vw;
+}
+
+.main-content-description {
+    width: 92%;
+}
+
+.main-content-description h1{
+    color: #ec5242;
+    font-size: 9vw;
+}
+
+.main-content-text {
+    margin-top: 10px;
+    width: 92%;
+    border: 2px solid #fff;
+}
+
+.main-content-text p{
+    font-size: 2.9vw;
+}
+
+.main-content-footer {
+    margin-top: 3vw;
+    margin-bottom: 15vw;
+}
+
+.main-content-footer h2 {
+    font-size: 5.5vw;
+}
+
+.main-content-footer h6 {
+    font-size: 2.9vw;
+    margin-top: 2px;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../assets/program_bg.jpg");
+}
+
+.program-title {
+    margin-top: 24px;
+    text-align: center;    
+}
+
+.program-title h3 {
+    color: #fff;
+}
+
+.program-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.program-card {
+    display: grid;
+    grid-template-columns: 50px 50px 150px;
+}
 
 
 
