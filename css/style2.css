@@ -31,7 +31,7 @@
   width: 100%;
 }
 
-.toggle_icon {
+.toggle_icon1 {
   width: 60px;
   height: 60px;
   position: relative;
@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 
-.toggle_icon span {
+.toggle_icon1 span {
   display: block;
   position: absolute;
   height: 9px;
@@ -65,19 +65,19 @@
   transition: 0.25s ease-in-out;
 }
 
-.toggle_icon span:nth-child(1) {
+.toggle_icon1 span:nth-child(1) {
   top: 0;
 }
 
-.toggle_icon span:nth-child(2) {
+.toggle_icon1 span:nth-child(2) {
   top: 18px;
 }
 
-.toggle_icon span:nth-child(3) {
+.toggle_icon1 span:nth-child(3) {
   top: 36px;
 }
 
-.toggle_icon.open span:nth-child(1) {
+.toggle_icon1.open span:nth-child(1) {
   top: 18px;
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -85,12 +85,12 @@
   transform: rotate(135deg);
 }
 
-.toggle_icon.open span:nth-child(2) {
+.toggle_icon1.open span:nth-child(2) {
   opacity: 0;
   left: -6px;
 }
 
-.toggle_icon.open span:nth-child(3) {
+.toggle_icon1.open span:nth-child(3) {
   top: 18px;
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
@@ -98,23 +98,23 @@
   transform: rotate(-135deg);
 }
 
-.menu {
+.menu1 {
   display: none;
   text-align: center;
   list-style-type: none;
 }
 
-.menu li {
+.menu1 li {
   margin-top: 0.8vw;
   font-size: 4.5vw;
 }
 
-.menu li a {
+.menu1 li a {
   text-decoration: none;
   color: #e00000;
 }
 
-.main-content {
+.main-content1 {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -241,6 +241,11 @@
   border: none;
 }
 
+.partners1 {
+  display: flex;
+  flex-direction: column;
+}
+
 .partners_flex {
   background-color: #414246;
   display: flex;
@@ -282,15 +287,6 @@
   grid-template-columns: 30% 70%;
   padding: 15px;
   height: 150px;
-}
-
-.patents {
-  padding-left: 5px;
-  font-size: 18px;
-  align-self: center;
-  justify-content: end;
-  width: 100%;
-  margin-left: 10px;
 }
 
 .main_logo {

@@ -5,18 +5,17 @@ const program = document.querySelector('.program');
 const speakerDetails = document.getElementById('featured_speakers');
 const featuredSpeakers = document.querySelector('.featured_speakers');
 const partners = document.querySelector('.partners_flex');
-
-let i = 0;
+// const menuItems = document.querySelectorAll('.menu-items');
 
 toggle.addEventListener('click', () => {
-  toggle.classList.toggle('open');
-  main.style.display = 'none';
-  menu.style.display = 'block';
-  program.style.display = 'none';
-  featuredSpeakers.style.display = 'none';
-  partners.style.display = 'none';
-  i += 1;
-  if (i % 2 === 0) {
+  if (!toggle.classList.contains('open')) {
+    toggle.classList.toggle('open');
+    main.style.display = 'none';
+    menu.style.display = 'block';
+    program.style.display = 'none';
+    featuredSpeakers.style.display = 'none';
+    partners.style.display = 'none';
+  } else {
     toggle.classList.remove('open');
     menu.style.display = 'none';
     main.style.display = 'flex';
