@@ -20,8 +20,7 @@
     height: 100%;
     background-image: url("../assets/header.png");
     background-repeat: no-repeat;
-    background-size: 143% 107%;
-    
+    background-size: 143% 107%;    
 }
 
 .logo-header {
@@ -54,7 +53,6 @@
     height: 9px;
     width: 100%;
     background: #000000;
-    /* border-radius: 9px; */
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -119,7 +117,9 @@
 .main-content {
     display: flex;
     flex-direction: column;
-    margin-left: 6.4vw;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
 }
 
 .main-content-title h1{
@@ -129,31 +129,35 @@
 }
 
 .main-content-description {
-    width: 92%;
+    width: 100%;
 }
 
 .main-content-description h1{
     color: #ec5242;
     font-size: 9vw;
+    font-style: bold;
 }
 
 .main-content-text {
-    margin-top: 10px;
-    width: 92%;
-    border: 0.53vw solid #fff;
+    margin-top: 2.66vw auto;
+    width: 100%;
+    background-color: #fff;
 }
 
 .main-content-text p{
-    font-size: 2.9vw;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    border: 0.53vw solid #d3d3d3;
 }
 
 .main-content-footer {
-    margin-top: 3vw;
+    margin-top: 4.5vw;
     margin-bottom: 15vw;
 }
 
-.main-content-footer h2 {
-    font-size: 5.5vw;
+.main-content-footer h6 {
+    font-size: 2.5vw;
 }
 
 .main-content-footer h6 {
@@ -161,74 +165,74 @@
     margin-top: 0.53vw;
 }
 
-.program {
+.events {
+    text-align: center;
+    margin: 5.33vw 0;
+    border-top: 1px solid #d3d3d3;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    background-image: url("../assets/programs.jpg");
-}
-
-.program-title {
-    margin-top: 6.4vw;
-    text-align: center;    
-}
-
-.program-title h3 {
-    color: #fff;
-}
-
-.program-content {
-    display: grid;
-    grid-auto-rows: 26.67vw;
-    grid-row-gap: 2.67vw;
-    width: 100%;
-    margin-top: 6.4vw;
-}
-
-.program-card {
-    margin: 0 6.4vw;
-    width: 87.5%;
-    height: auto;
-    background-color: #000;
-    opacity: 0.7;
-    display: grid;
-    grid-template-columns: 21.33vw 21.33vw 44.53vw;
     align-items: center;
-    justify-content: center;
 }
 
-.program-icon {
-    text-align: center;
+.events h3 {
+  text-align: center;
+  font-size: 5.33vw;
+  color: black;
+  padding: 2.67vw;
+  margin-top: 5.33vw;
 }
 
-.program-icon img {
-    width: 50%;
-    height: 50%;
-}
-
-.program-caption h4 {
-    color: #ec5242;
-    font-size: 4vw;
-    font-style: bold;
-}
-
-.program-description {
-    margin-right: 2px;
-}
-
-.program-description p {
-    color: #fff;
-    font-size: 2.9vw;
-}
-
-.program-button {
-    margin: 6.4vw auto;
-    width: 70%;
-    height: 16vw;
-    background-color: #ec5242;
-    border: none;
-    color: #fff;
+.events p {
     font-size: 3.2vw;
+    text-align: center;
+    padding: 0 8vw;
+}
+
+.events_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.events .orange {
+    width: 100%;
+    height: 100%;
+    background-color: #f45437c2;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.events .event1_card {
+    height: 50vw;
+    width: 80vw;
+    margin: 5.33vw 0;
+    color: white;
+    background-image: url("../assets/event_buenos_aires\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+}
+
+.events .event2_card {
+    height: 50vw;
+    width: 80vw;
+    margin: 5.33vw 0;
+    color: white;
+    background-image: url("../assets/event_singapore\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+}
+
+.event1_card .date, .event2_card .date {
+    font-size: 7.33vw;
+}
+
+.event1_card .description, .event2_card .description {
+    font-size: 4.33vw;
 }
 
 .hr-title {
@@ -237,62 +241,6 @@
     background-color: #ec5242;
     margin: 0 auto;
     border: none;
-}
-
-.featured_speakers {
-    display: flex;
-    flex-direction: column;
-}
-
-.speaker-card {
-    height: auto;
-    background: white;
-    margin: 4vw;
-    border-bottom: solid;
-    border-color: rgb(219, 214, 214);
-    border-width: 0.266vw;
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-bottom: 1.33vw;
-}
-.image-card img {
-  max-width: 32vw;
-  max-height: 32vw;
-}
-.detail-card {
-  padding-left: 2.67vw;
-  display: flex;
-  flex-direction: column;
-  place-self: start;
-}
-.detail-card h3 {
-  padding: 0;
-  margin: 0;
-  font-size: 5.33vw;
-  margin-bottom: 1.6vw;
-}
-.detail-card h4 {
-  font-size: 4.05vw;
-  color: #ec5242;
-  text-align: left;
-  padding: 0;
-  margin: 0;
-}
-
-.featured_speakers {
-    margin: 6.4vw 0;
-}
-
-.featured_speakers h2 {
-  text-align: center;
-  font-size: 10vw;
-  
-}
-.quotes a {
-  text-decoration: none;
-  cursor: pointer;
-  color: black;
-  font-size: 3.62vw;
 }
 
 .partners_flex {
