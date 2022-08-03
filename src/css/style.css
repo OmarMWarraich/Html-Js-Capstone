@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
@@ -101,12 +101,11 @@
 .menu {
     display: none;
     text-align: center;
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 
 .menu li {
-    margin-top: 1.8px;
+    margin-top: 3px;
     font-size: 4.5vw;
 }
 
@@ -211,6 +210,10 @@
     font-style: bold;
 }
 
+.program-description {
+    margin-right: 2px;
+}
+
 .program-description p {
     color: #fff;
     font-size: 2.9vw;
@@ -222,4 +225,15 @@
     height: 60px;
     background-color: #ec5242;
     border: none;
+    color: #fff;
 }
+
+.hr-title {
+    width: 25px;
+    height: 3px;
+    background-color: #ec5242;
+    margin: 0 auto;
+    border: none;
+}
+
+
