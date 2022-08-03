@@ -61,20 +61,20 @@ const speakers = [
 
 const speakersData = () => {
   speakers.forEach((speaker) => {
-    speakerDetails.innerHTML += ` <div class="speakers-grid">
-                                    <div class="grid-image">
-                                        <img src="${speaker.img}" alt="${speaker.name}'s Portrait" />
-                                    </div>
-                                    <div class="speakerDetails">
-                                        <h3>${speaker.name}</h3>
-                                        <h4>${speaker.position}</h4>
-                                        <p class="quotes">
-                                            <i><a href="#">${speaker.quote}</a></i>
-                                        </p>
-                                    </div>
+    speakerDetails.innerHTML +=    `<div class="speaker-card">
+                                        <div class="image-card">
+                                            <img src="${speaker.img}" alt="${speaker.name}'s Portrait" />
+                                        </div>
+                                        <div class="detail-card">
+                                            <h3>${speaker.name}</h3>
+                                            <h4>${speaker.position}</h4>
+                                            <p class="quotes">
+                                                <i><a href="#">${speaker.quote}</a></i>
+                                            </p>
+                                        </div>
                                     </div>`;
-  });
-}
+                                });
+                            }
 
 window.onload = speakersData();
 

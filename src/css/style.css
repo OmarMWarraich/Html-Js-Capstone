@@ -236,4 +236,56 @@
     border: none;
 }
 
+.speaker-card {
+    height: auto;
+    background: white;
+    margin: 15px 15px 10px 15px;
+    border-bottom: solid;
+    border-color: rgb(219, 214, 214);
+    border-width: 1px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 5px;
+  }
+
+  .image-card img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .detail-card {
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    place-self: start;
+  }
+
+  .detail-card h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 6px;
+  }
+
+  .detail-card h4 {
+    font-size: 0.95rem;
+    color: #ec5242;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .featured_speakers h2 {
+    text-align: center;
+  }
+
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 0.85rem;
+  }
+
 
