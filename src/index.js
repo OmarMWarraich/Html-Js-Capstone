@@ -3,6 +3,8 @@ const menu = document.querySelector('.menu');
 const main = document.querySelector('.main-content');
 const program = document.querySelector('.program');
 const speakerDetails = document.getElementById('featured_speakers');
+const featured_speakers = document.querySelector('.featured_speakers');
+const partners = document.querySelector('.partners_flex');
 
 let i = 0;
 
@@ -11,12 +13,16 @@ toggle.addEventListener('click', () => {
     main.style.display = 'none';
     menu.style.display = 'block';
     program.style.display = 'none';
+    featured_speakers.style.display = 'none';
+    partners.style.display = 'none';
     i += 1;
     if (i % 2 === 0) {
         toggle.classList.remove('open');
         menu.style.display = 'none';
         main.style.display = 'flex';
         program.style.display = 'flex';
+        featured_speakers.style.display = 'flex';
+        partners.style.display = 'flex';
     }
 });
 
@@ -24,7 +30,7 @@ const speakers = [
     {
         img: './assets/speakers/andrew_ng.jpg',
         name: 'Andrew Ng',
-        position: 'Co-Founder of Coursera; Stanford CS adjunct faculty.',
+        position: 'Co-Founder of Coursera, Stanford CS adjunct faculty.',
         quote: 'Coursera is a platform for learning. It is a place where you can learn from the best, and where you can share what you know.'
     },
     {
@@ -42,19 +48,19 @@ const speakers = [
     {
         img: './assets/speakers/LexFridman.jpg',
         name: 'Lex Fridman',
-        position: 'Host of Lex Fridman Podcast; Research Scientist at MIT.',
+        position: 'Host of Lex Fridman Podcast. Research Scientist at MIT.',
         quote: 'I believe in the power of conversation (between leaders) to help avoid World War III. This requires of our leaders: strength of character, empathy, emotional intelligence, and deep historical knowledge of the nations involved.'
     },
     {
         img: './assets/speakers/nader1.png',
         name: 'Nader dabit',
-        position: 'developer; building the first modular blockchain network @celestiaorg; founder @developer_dao',  
+        position: 'Founder developer_dao',  
         quote: 'We need algorithms which reward naunced ideas and discussions, not outrage.'
     },
     {
         img: './assets/speakers/Ben_Haynes.jpg',
         name: 'Ben Haynes',
-        position: 'CEO and Co-Founder of @Directus; Advocate for @Microsoft and #OpenSource',
+        position: 'CEO and Co-Founder of Directus',
         quote: 'The whole is greater than the sum of its parts. When bright minds from every department can contribute their ideas and expertise to an organization’s technical innovations, there’s no limit to what can be created.'
     }    
 ]

@@ -18,7 +18,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100%;
-    background-image: url("../assets/bg1.jpg");
+    background-image: url("../assets/header.png");
 }
 
 .logo-header {
@@ -33,7 +33,7 @@
     width: 60px;
     height: 60px;
     position: relative;
-    margin: 24px;
+    margin: 6.4vw;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -52,7 +52,7 @@
     height: 9px;
     width: 100%;
     background: #000000;
-    border-radius: 9px;
+    /* border-radius: 9px; */
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -105,7 +105,7 @@
 }
 
 .menu li {
-    margin-top: 3px;
+    margin-top: 0.8vw;
     font-size: 4.5vw;
 }
 
@@ -117,7 +117,7 @@
 .main-content {
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
+    margin-left: 6.4vw;
 }
 
 .main-content-title h1{
@@ -138,7 +138,7 @@
 .main-content-text {
     margin-top: 10px;
     width: 92%;
-    border: 2px solid #fff;
+    border: 0.53vw solid #fff;
 }
 
 .main-content-text p{
@@ -156,18 +156,18 @@
 
 .main-content-footer h6 {
     font-size: 2.9vw;
-    margin-top: 2px;
+    margin-top: 0.53vw;
 }
 
 .program {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url("../assets/program_bg.jpg");
+    background-image: url("../assets/programs.jpg");
 }
 
 .program-title {
-    margin-top: 24px;
+    margin-top: 6.4vw;
     text-align: center;    
 }
 
@@ -177,20 +177,20 @@
 
 .program-content {
     display: grid;
-    grid-auto-rows: 100px;
-    grid-row-gap: 10px;
+    grid-auto-rows: 26.67vw;
+    grid-row-gap: 2.67vw;
     width: 100%;
-    margin-top: 24px;
+    margin-top: 6.4vw;
 }
 
 .program-card {
-    margin: 0 24px;
+    margin: 0 6.4vw;
     width: 87.5%;
     height: auto;
     background-color: #000;
     opacity: 0.7;
     display: grid;
-    grid-template-columns: 80px 80px 167px;
+    grid-template-columns: 21.33vw 21.33vw 44.53vw;
     align-items: center;
     justify-content: center;
 }
@@ -236,56 +236,123 @@
     border: none;
 }
 
+.featured_speakers {
+    display: flex;
+    flex-direction: column;
+}
+
 .speaker-card {
     height: auto;
     background: white;
-    margin: 15px 15px 10px 15px;
+    margin: 4vw;
     border-bottom: solid;
     border-color: rgb(219, 214, 214);
-    border-width: 1px;
+    border-width: 0.266vw;
     display: grid;
     grid-template-columns: auto auto;
-    padding-bottom: 5px;
-  }
+    padding-bottom: 1.33vw;
+}
+.image-card img {
+  max-width: 32vw;
+  max-height: 32vw;
+}
+.detail-card {
+  padding-left: 2.67vw;
+  display: flex;
+  flex-direction: column;
+  place-self: start;
+}
+.detail-card h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 5.33vw;
+  font-family: 'lato', sans-serif;
+  margin-bottom: 1.6vw;
+}
+.detail-card h4 {
+  font-size: 4.05vw;
+  color: #ec5242;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
 
-  .image-card img {
-    max-width: 120px;
-    max-height: 120px;
-  }
+.featured_speakers {
+    margin: 6.4vw 0;
+}
 
-  .detail-card {
-    padding-left: 10px;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    place-self: start;
-  }
+.featured_speakers h2 {
+  text-align: center;
+  font-size: 10vw;
+}
+.quotes a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 3.62vw;
+}
 
-  .detail-card h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    font-family: 'lato', sans-serif;
-    margin-bottom: 6px;
-  }
+.partners_flex {
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5.33vw;
+}
+.partners_flex h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 4.26vw;
+  padding: 2.66vw;
+}
+.partners_flex hr {
+  text-align: center;
+  border-color: #ec5242;
+  width: 25px;
+  margin-bottom: 15px;
+}
+.partners_flex .partners_logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.partners_flex .partner_image {
+  margin: 20px;
+  width: 125px;
+  height: 40px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 15px;
+  height: 150px;
+}
+.patents {
+  padding-left: 5px;
+  font-size: 18px;
+  align-self: center;
+  justify-content: end;
+  width: 100%;
+  margin-left: 10px;
+}
+.main_logo {
+  align-self: center;
+  font-weight: 600;
+  font-size: 18px;
+  width: 100%;
+  text-align: end;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+}
 
-  .detail-card h4 {
-    font-size: 0.95rem;
-    color: #ec5242;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-  }
-
-  .featured_speakers h2 {
-    text-align: center;
-  }
-
-  .quotes a {
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-    font-size: 0.85rem;
-  }
-
-
+.copyright {
+  line-height: 1.2;
+  color: #a5a1a1;
+  font-size: 16px;
+  align-items: center;
+  margin: auto;
+}
