@@ -5,7 +5,6 @@ const program = document.querySelector('.program');
 const speakerDetails = document.getElementById('featured_speakers');
 const featuredSpeakers = document.querySelector('.featured_speakers');
 const partners = document.querySelector('.partners_flex');
-// const menuItems = document.querySelectorAll('.menu-items');
 
 toggle.addEventListener('click', () => {
   if (!toggle.classList.contains('open')) {

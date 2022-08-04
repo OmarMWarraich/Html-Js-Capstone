@@ -98,6 +98,10 @@
   transform: rotate(-135deg);
 }
 
+nav {
+  display: none;
+}
+
 .menu1 {
   display: none;
   text-align: center;
@@ -365,12 +369,16 @@
     color: #000;
   }
   
-  .nav-item1 a {
-    color: #ec5242 !important;
+  .nav-menu ul li a:hover {
+    color: #ec5242;
   }
+
+  .nav-menu ul li a:active {
+    color: #ec5242;
+  }
+
   
   .nav-item6 a {
-    color: #ec5242 !important;
     border: 3px solid #ec5242;
     padding: 5px 15px;
   }
