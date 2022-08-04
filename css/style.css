@@ -623,14 +623,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5.33vw;
+    padding-top: 2.33vw;
   }
   
   .partners_flex h2 {
     text-align: center;
     color: #fff;
-    font-size: 4.26vw;
-    padding: 2.66vw;
+    font-size: 2.26vw;
+    padding: 1.66vw;
   }
   
   .partners_flex hr {
@@ -657,14 +657,14 @@
   .footer {
     display: grid;
     grid-template-columns: 30% 70%;
-    padding: 15px;
+    padding: 5px;
     height: 150px;
   }
   
   .main_logo {
     align-self: center;
     font-weight: 600;
-    font-size: 4.8vw;
+    font-size: 2.4vw;
     width: 100%;
     text-align: end;
   }

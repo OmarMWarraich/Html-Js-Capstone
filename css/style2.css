@@ -315,7 +315,6 @@ nav {
 
 @media screen and (min-width: 768px) {
 
-  /* background-color: #272a31; #d3d3d3 */
   .logo_header {
     display: none;
   }
@@ -377,9 +376,202 @@ nav {
     color: #ec5242;
   }
 
-  
   .nav-item6 a {
     border: 3px solid #ec5242;
     padding: 5px 15px;
+  }
+
+  .main-content1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 13vw;
+  }
+  
+  .main-content-title {
+    display: none;
+  }
+  
+  .main-content-description {
+    width: 100%;
+  }
+  
+  .main-content-description h1 {
+    color: #ec5242;
+    font-size: 4.59vw;
+    font-style: normal;
+  }
+  
+  .main-content-text {
+    margin: 5.33vw auto;
+    width: 80%;
+    background-color: #fff;
+  }
+  
+  .main-content-text p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.25vw;
+    border: 0.53vw solid #d3d3d3;
+  }
+  
+  .main-content-footer {
+    margin-top: 2.25vw;
+    margin-bottom: 15vw;
+  }
+  
+  .main-content-footer h6 {
+    font-size: 1.45vw;
+    margin-top: 0.53vw;
+  }
+  
+  .events {
+    text-align: center;
+    margin: 2.625vw 0;
+    border-top: 1px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+  }
+  
+  .events h3 {
+    text-align: center;
+    font-size: 2.625vw;
+    color: black;
+    padding: 1.335vw;
+    margin-top: 2.625vw;
+  }
+  
+  .events p {
+    font-size: 2.2vw;
+    text-align: center;
+    padding: 0 8vw;
+  }
+  
+  .events_content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .events .orange {
+    width: 100%;
+    height: 100%;
+    background-color: #f45437c2;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .events .event1_card {
+    height: 20vw;
+    width: 30vw;
+    margin: 2.625vw 0;
+    color: white;
+    background-image: url("../assets/event_buenos_aires\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+  }
+  
+  .events .event2_card {
+    height: 20vw;
+    width: 30vw;
+    margin: 2.625vw 0;
+    color: white;
+    background-image: url("../assets/event_singapore\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+  }
+  
+  .event1_card .date,
+  .event2_card .date {
+    font-size: 3.83vw;
+  }
+  
+  .event1_card .description,
+  .event2_card .description {
+    font-size: 2.33vw;
+  }
+  
+  .hr-title {
+    width: 25px;
+    height: 3px;
+    background-color: #ec5242;
+    margin: 0 auto;
+    border: none;
+  }
+  
+  .partners1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .partners_flex {
+    background-color: #414246;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.33vw;
+  }
+  
+  .partners_flex h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.26vw;
+    padding: 1.66vw;
+  }
+  
+  .partners_flex hr {
+    text-align: center;
+    border-color: #ec5242;
+    width: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .partners_flex .partners_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .partners_flex .partner_image {
+    margin: 20px;
+    width: 125px;
+    height: 40px;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 55px;
+    height: 150px;
+  }
+  
+  .main_logo {
+    align-self: center;
+    font-weight: 600;
+    font-size: 2.4vw;
+    width: 100%;
+    text-align: end;
+  }
+  
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
+  
+  .copyright {
+    color: #a5a1a1;
+    font-size: 1.26vw;
+    align-items: center;
+    margin: auto;
   }
 }
