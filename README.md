@@ -51,9 +51,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin
+- GUI & Graphic Designer
+- Seoul, Korea
 
 ## 📝 License
 
