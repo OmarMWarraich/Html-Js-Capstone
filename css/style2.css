@@ -314,43 +314,47 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-
   .logo_header {
     display: none;
   }
-  
+
   .menu {
     display: none;
   }
-  
+
   .nav {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
+
   .nav-header {
     display: grid;
     grid-template-columns: 5fr 3fr 1fr;
     height: 40px;
     background-color: #272a31;
   }
-  
+
   .nav-list {
     display: flex;
     align-items: center;
   }
-  
+
   .nav-list li {
     list-style-type: none;
     padding: 0 10px;
   }
-  
+
+  .nav-item6 a {
+    border: 3px solid #ec5242;
+    padding: 5px 15px;
+  }
+
   .nav-list li a {
     text-decoration: none;
     color: #fff;
   }
-  
+
   .nav-body {
     display: grid;
     grid-template-columns: 3fr 6fr;
@@ -359,26 +363,21 @@ nav {
     align-items: center;
     height: 80px;
   }
-  
+
   .nav-menu ul li {
     padding: 0 25px;
   }
-  
+
   .nav-menu ul li a {
     color: #000;
   }
-  
+
   .nav-menu ul li a:hover {
     color: #ec5242;
   }
 
   .nav-menu ul li a:active {
     color: #ec5242;
-  }
-
-  .nav-item6 a {
-    border: 3px solid #ec5242;
-    padding: 5px 15px;
   }
 
   .main-content1 {
@@ -389,44 +388,44 @@ nav {
     text-align: center;
     margin-top: 13vw;
   }
-  
+
   .main-content-title {
     display: none;
   }
-  
+
   .main-content-description {
     width: 100%;
   }
-  
+
   .main-content-description h1 {
     color: #ec5242;
     font-size: 4.59vw;
     font-style: normal;
   }
-  
+
   .main-content-text {
     margin: 5.33vw auto;
     width: 80%;
     background-color: #fff;
   }
-  
+
   .main-content-text p {
     width: 100%;
     margin: 0 auto;
     font-size: 1.25vw;
     border: 0.53vw solid #d3d3d3;
   }
-  
+
   .main-content-footer {
     margin-top: 2.25vw;
     margin-bottom: 15vw;
   }
-  
+
   .main-content-footer h6 {
     font-size: 1.45vw;
     margin-top: 0.53vw;
   }
-  
+
   .events {
     text-align: center;
     margin: 2.625vw 0;
@@ -434,7 +433,7 @@ nav {
     display: flex;
     align-items: center;
   }
-  
+
   .events h3 {
     text-align: center;
     font-size: 2.625vw;
@@ -442,19 +441,19 @@ nav {
     padding: 1.335vw;
     margin-top: 2.625vw;
   }
-  
+
   .events p {
     font-size: 2.2vw;
     text-align: center;
     padding: 0 8vw;
   }
-  
+
   .events_content {
     display: flex;
     flex-direction: row;
     gap: 40px;
   }
-  
+
   .events .orange {
     width: 100%;
     height: 100%;
@@ -466,7 +465,7 @@ nav {
     align-items: center;
     flex-direction: column;
   }
-  
+
   .events .event1_card {
     height: 20vw;
     width: 30vw;
@@ -477,7 +476,7 @@ nav {
     background-size: 100% 100%;
     align-items: center;
   }
-  
+
   .events .event2_card {
     height: 20vw;
     width: 30vw;
@@ -488,17 +487,17 @@ nav {
     background-size: 100% 100%;
     align-items: center;
   }
-  
+
   .event1_card .date,
   .event2_card .date {
     font-size: 3.83vw;
   }
-  
+
   .event1_card .description,
   .event2_card .description {
     font-size: 2.33vw;
   }
-  
+
   .hr-title {
     width: 25px;
     height: 3px;
@@ -506,12 +505,12 @@ nav {
     margin: 0 auto;
     border: none;
   }
-  
+
   .partners1 {
     display: flex;
     flex-direction: column;
   }
-  
+
   .partners_flex {
     background-color: #414246;
     display: flex;
@@ -519,21 +518,21 @@ nav {
     align-items: center;
     padding-top: 2.33vw;
   }
-  
+
   .partners_flex h2 {
     text-align: center;
     color: #fff;
     font-size: 2.26vw;
     padding: 1.66vw;
   }
-  
+
   .partners_flex hr {
     text-align: center;
     border-color: #ec5242;
     width: 25px;
     margin-bottom: 15px;
   }
-  
+
   .partners_flex .partners_logo {
     display: flex;
     flex-wrap: wrap;
@@ -541,20 +540,20 @@ nav {
     justify-content: center;
     margin-bottom: 20px;
   }
-  
+
   .partners_flex .partner_image {
     margin: 20px;
     width: 125px;
     height: 40px;
   }
-  
+
   .footer {
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 55px;
     height: 150px;
   }
-  
+
   .main_logo {
     align-self: center;
     font-weight: 600;
@@ -562,12 +561,12 @@ nav {
     width: 100%;
     text-align: end;
   }
-  
+
   .logo {
     height: 50%;
     width: 50%;
   }
-  
+
   .copyright {
     color: #a5a1a1;
     font-size: 1.26vw;

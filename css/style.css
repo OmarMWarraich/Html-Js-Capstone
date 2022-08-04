@@ -249,7 +249,7 @@
 }
 
 .featured_speakers {
-  display: flex;    
+  display: flex;
   flex-direction: column;
   margin: 6.4vw 0;
 }
@@ -362,7 +362,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .logo_header {
     display: none;
   }
@@ -394,6 +393,23 @@
     padding: 0 10px;
   }
 
+  .nav-item6 a {
+    color: #ec5242 !important;
+    border: 3px solid #ec5242;
+    padding: 5px 15px;
+  }
+
+  .nav-item1 a {
+    color: #ec5242 !important;
+  }
+
+  .quotes a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.62vw;
+  }
+
   .nav-list li a {
     text-decoration: none;
     color: #fff;
@@ -420,45 +436,28 @@
     color: #000;
   }
 
-  .nav-item1 a {
-    color: #ec5242 !important;
-  }
-
-  .nav-item6 a {
-    color: #ec5242 !important;
-    border: 3px solid #ec5242;
-    padding: 5px 15px;
-  }
-
-
-
-
-
-
-
-
   .main-content {
     display: flex;
     flex-direction: column;
     margin-left: 15vw;
     margin-top: 8vw;
   }
-  
+
   .main-content-title h1 {
     color: #ec5242;
     font-style: normal;
     font-size: 4vw;
   }
-  
+
   .main-content-description {
     width: 100%;
   }
-  
+
   .main-content-description h1 {
     color: #ec5242;
     font-size: 8vw;
   }
-  
+
   .main-content-text {
     margin-top: 15px;
     width: 77%;
@@ -466,49 +465,49 @@
     padding: 8px 3px;
     background-color: #f5f5dc;
   }
-  
+
   .main-content-text p {
     font-size: 1.8vw;
   }
-  
+
   .main-content-footer {
     margin-top: 3vw;
     margin-bottom: 12vw;
   }
-  
+
   .main-content-footer h2 {
     font-size: 3.5vw;
   }
-  
+
   .main-content-footer h6 {
     font-size: 1.9vw;
     margin-top: 0.53vw;
   }
-  
+
   .program {
     display: flex;
     flex-direction: column;
     width: 100%;
     background-image: url("../assets/programs.jpg");
   }
-  
+
   .program-title {
     margin-top: 6.4vw;
     text-align: center;
   }
-  
+
   .program-title h3 {
     color: #fff;
     font-size: 2.2vw;
   }
-  
+
   .program-content {
     display: grid;
     grid-template-columns: repeat(5, 2fr);
     gap: 1px;
     margin: 4vw 0;
   }
-  
+
   .program-card {
     background-color: #000;
     height: 200px;
@@ -517,37 +516,37 @@
     flex-direction: column;
     margin: 0 auto;
   }
-  
+
   .program-icon {
     text-align: center;
   }
-  
+
   .program-icon img {
     width: 100%;
     height: 100%;
   }
-  
+
   .program-caption h4 {
     color: #ec5242;
     font-size: 1.5vw;
     font-style: normal;
     margin-top: 1vw;
   }
-  
+
   .program-description {
     margin-top: 1vw;
   }
-  
+
   .program-description p {
     color: #fff;
     font-size: 1vw;
     text-align: center;
   }
-  
+
   .program-button {
     display: none;
   }
-  
+
   .hr-title {
     width: 75px;
     height: 7px;
@@ -555,7 +554,7 @@
     margin: 0 auto;
     border: none;
   }
-  
+
   .featured_speakers {
     display: flex;
     flex-direction: column;
@@ -567,7 +566,7 @@
     grid-template-columns: auto auto;
     gap: 10px;
   }
-  
+
   .featured_speakers h2 {
     font-size: 2.2vw;
   }
@@ -588,34 +587,27 @@
     max-width: 120px;
     max-height: 120px;
   }
-  
+
   .detail-card {
     padding-left: 2.67vw;
     display: flex;
     flex-direction: column;
     place-self: start;
   }
-  
+
   .detail-card h3 {
     padding: 0;
     margin: 0;
     font-size: 2.05vw;
     margin-bottom: 1.6vw;
   }
-  
+
   .detail-card h4 {
     font-size: 1.55vw;
     color: #ec5242;
     text-align: left;
     padding: 0;
     margin: 0;
-  }
-
-  .quotes a {
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-    font-size: 1.62vw;
   }
 
   .partners_flex {
@@ -625,21 +617,21 @@
     align-items: center;
     padding-top: 2.33vw;
   }
-  
+
   .partners_flex h2 {
     text-align: center;
     color: #fff;
     font-size: 2.26vw;
     padding: 1.66vw;
   }
-  
+
   .partners_flex hr {
     text-align: center;
     border-color: #ec5242;
     width: 25px;
     margin-bottom: 15px;
   }
-  
+
   .partners_flex .partners_logo {
     display: flex;
     flex-wrap: wrap;
@@ -647,20 +639,20 @@
     justify-content: center;
     margin-bottom: 20px;
   }
-  
+
   .partners_flex .partner_image {
     margin: 20px;
     width: 125px;
     height: 40px;
   }
-  
+
   .footer {
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 5px;
     height: 150px;
   }
-  
+
   .main_logo {
     align-self: center;
     font-weight: 600;
@@ -668,18 +660,16 @@
     width: 100%;
     text-align: end;
   }
-  
+
   .logo {
     height: 50%;
     width: 50%;
   }
-  
+
   .copyright {
     color: #a5a1a1;
     font-size: 1.26vw;
     align-items: center;
     margin: auto;
   }
-  
-
 }
