@@ -345,7 +345,12 @@ nav {
     padding: 0 10px;
   }
 
+  .nav-item1 a {
+    color: #ec5242 !important;
+  }
+
   .nav-item6 a {
+    color: #ec5242 !important;
     border: 3px solid #ec5242;
     padding: 5px 15px;
   }
