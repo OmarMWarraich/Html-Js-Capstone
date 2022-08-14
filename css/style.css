@@ -266,7 +266,13 @@
   padding-bottom: 1.33vw;
 }
 
+.image-card {
+  background: repeating-conic-gradient(#000 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+  height: 240px;
+}
+
 .image-card img {
+  margin-top: 60px;
   max-width: 32vw;
   max-height: 32vw;
 }
@@ -583,7 +589,13 @@
     padding-bottom: 1.33vw;
   }
 
+  .image-card {
+    background: repeating-conic-gradient(#000 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+    height: 300px;
+  }
+
   .image-card img {
+    margin-top: 90px;
     max-width: 120px;
     max-height: 120px;
   }
