@@ -113,6 +113,10 @@
   font-size: 4.5vw;
 }
 
+.menu li a:hover {
+  color: #d3d3d3;
+}
+
 .quotes a {
   text-decoration: none;
   cursor: pointer;
@@ -267,6 +271,7 @@
 }
 
 .image-card {
+  /* eslint-disable-next-line csstree/validator */
   background: repeating-conic-gradient(#000 0% 25%, transparent 0% 50%) 50% / 20px 20px;
   height: 240px;
 }
@@ -440,6 +445,10 @@
 
   .nav-menu ul li a {
     color: #000;
+  }
+
+  .nav-menu ul li a:hover {
+    color: #ec5242;
   }
 
   .main-content {
