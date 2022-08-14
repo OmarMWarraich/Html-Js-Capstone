@@ -125,6 +125,10 @@
   color: #e00000;
 }
 
+.menu li a:hover {
+  color: #d3d3d3;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -231,7 +235,7 @@
 }
 
 .program-button {
-  margin: 6.4vw auto;
+  margin: 3.3vw auto;
   width: 70%;
   height: 16vw;
   background-color: #ec5242;
@@ -266,9 +270,17 @@
   padding-bottom: 1.33vw;
 }
 
+.image-card {
+  height: 240px;
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+  background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);
+}
+
 .image-card img {
-  max-width: 32vw;
-  max-height: 32vw;
+  margin-top: 60px;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .detail-card {
@@ -436,6 +448,10 @@
     color: #000;
   }
 
+  .nav-menu ul li a:hover {
+    color: #ec5242;
+  }
+
   .main-content {
     display: flex;
     flex-direction: column;
@@ -583,7 +599,15 @@
     padding-bottom: 1.33vw;
   }
 
+  .image-card {
+    height: 270px;
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%), linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);
+  }
+
   .image-card img {
+    margin-top: 75px;
     max-width: 120px;
     max-height: 120px;
   }
